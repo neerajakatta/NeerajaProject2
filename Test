@@ -1,0 +1,88 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "This scenario is designed to validate all the display conditions",
+        "description": "",
+        "id": "this-feature-file-is-designed-to-validate-home-page-functionalities-in-below-listed-scenarios;this-scenario-is-designed-to-validate-all-the-display-conditions",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9524799706,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "As an user i want to launch firefox browser",
+            "match": {
+              "location": "TC_01_Brokenlinkvalidation.LaunchApplication()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 330115766,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "an application is opened verify home page is displayed",
+            "match": {
+              "location": "TC_01_Brokenlinkvalidation.VerifyingHomePage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2462438420,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "verify to login admin page",
+            "match": {
+              "location": "TC_01_Brokenlinkvalidation.logintoadminHomepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2540082354,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify the tabs order",
+            "match": {
+              "location": "TC_01_Brokenlinkvalidation.verifyTabsOrder()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 203483184,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verify the broken links",
+            "match": {
+              "location": "TC_01_Brokenlinkvalidation.VerifyBrokenLinks()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@Regressiontest"
+          }
+        ]
+      }
+    ],
+    "name": "This feature file is designed to validate Home page functionalities in below listed scenarios",
+    "description": "",
+    "id": "this-feature-file-is-designed-to-validate-home-page-functionalities-in-below-listed-scenarios",
+    "keyword": "Feature",
+    "uri": "Home.feature"
+  }
+]
